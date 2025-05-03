@@ -1,0 +1,20 @@
+[project]
+name = "md2html"
+version = "0.1.0"
+description = "A simple Markdown to HTML converter"
+authors = [{name = "Rigaqi"}]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/markdown_converter"]

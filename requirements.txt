@@ -1,0 +1,7 @@
+build==1.2.2.post1
+colorama==0.4.6
+Markdown==3.8
+# Editable install with no version control (md2html==0.1.0)
+-e d:\learning apps\md2html
+packaging==25.0
+pyproject_hooks==1.2.0
