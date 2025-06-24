@@ -1,0 +1,36 @@
+```
+└── 📁.pyenv
+    └── ...
+└── 📁.vscode
+    └── ...
+└── 📁dist
+    └── ...
+└── 📁src
+    └── 📁__pycache__
+        └── ...
+    └── 📁markdown_converter
+        └── __init__.py
+        └── 📁__pycache__
+            └── ...
+        └── cli.py
+        └── converter.py
+        └── main.py
+        └── processor.py
+        └── validations.py
+    └── __init__.py
+└── 📁tests
+    └── 📁__pycache__
+        └── ...
+    └── cli_test.py
+    └── converter_test.py
+    └── test_cli_integration.py
+    └── test_cli_subprocess.py
+└── 📁test_files
+    └── ...
+└── .gitignore
+└── LICENSE
+└── project_structure.md
+└── pyproject.toml
+└── README.md
+└── requirements.txt
+```
