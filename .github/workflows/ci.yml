@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - name: 📥 Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: 🐍 Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v4
@@ -35,8 +35,9 @@ jobs:
         coverage xml
 
     - name: 📤 Upload coverage to Codecov
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@v4
       with:
+        token: ${{ secrets.CODECOV_TOKEN }}
         files: coverage.xml
         flags: unittests
         name: codecov-coverage
