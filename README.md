@@ -111,3 +111,5 @@ Developed by **Rigaqi** — as part of a personal mission to write cleaner, more
 ## 🤝 Contributing
 
 Feel free to fork this repo and improve it — PRs welcome!
+
+[![codecov](https://codecov.io/gh/komarr007/markdown_to_html/graph/badge.svg?token=J835NNGUQ1)](https://codecov.io/gh/komarr007/markdown_to_html)
